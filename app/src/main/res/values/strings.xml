@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PostsMVVMRetrofit</string>
+    <string name="title">Title</string>
+    <string name="body">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</string>
+</resources>

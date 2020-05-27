@@ -1,0 +1,2 @@
+rootProject.name='PostsMVVMRetrofit'
+include ':app'
