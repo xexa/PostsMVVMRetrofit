@@ -49,6 +49,7 @@ public class WebServiceRepository {
 
             @Override
             public void onFailure(Call<List<ResultModel>> call, Throwable t) {
+                call.cancel();
 
             }
         });
