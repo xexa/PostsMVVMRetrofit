@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.postsmvvmretrofit.PostRoomDBRepository;
-import com.example.postsmvvmretrofit.WebServiceRepository;
+import com.example.postsmvvmretrofit.repositories.PostRoomDBRepository;
+import com.example.postsmvvmretrofit.repositories.WebServiceRepository;
 import com.example.postsmvvmretrofit.model.ResultModel;
 
 import java.util.List;

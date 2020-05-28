@@ -1,12 +1,12 @@
-package com.example.postsmvvmretrofit;
+package com.example.postsmvvmretrofit.repositories;
 
 import android.app.Application;
-import android.widget.Toast;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 import com.example.postsmvvmretrofit.model.ResultModel;
+import com.example.postsmvvmretrofit.repositories.PostRoomDBRepository;
 import com.example.postsmvvmretrofit.retrofit.ApiInterface;
 import com.example.postsmvvmretrofit.retrofit.RetrofitClient;
 

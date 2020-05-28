@@ -1,4 +1,4 @@
-package com.example.postsmvvmretrofit;
+package com.example.postsmvvmretrofit.repositories;
 
 import android.app.Application;
 import android.os.AsyncTask;

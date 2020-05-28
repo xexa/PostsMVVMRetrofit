@@ -1,4 +1,4 @@
-package com.example.postsmvvmretrofit;
+package com.example.postsmvvmretrofit.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.example.postsmvvmretrofit.R;
 import com.example.postsmvvmretrofit.adapter.PostAdapter;
 import com.example.postsmvvmretrofit.model.ResultModel;
 import com.example.postsmvvmretrofit.viewmodel.PostsListViewModel;

@@ -13,7 +13,7 @@ import com.example.postsmvvmretrofit.model.ResultModel;
 
 import java.util.List;
 
-public class PostAdapter  extends RecyclerView.Adapter<PostAdapter.MyViewholder> {
+public class PostAdapter extends RecyclerView.Adapter<PostAdapter.MyViewholder> {
     private List<ResultModel> resultModels;
 
     public PostAdapter(List<ResultModel> resultModels) {
@@ -24,7 +24,7 @@ public class PostAdapter  extends RecyclerView.Adapter<PostAdapter.MyViewholder>
     @Override
     public MyViewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item, parent, false);
-        return  new MyViewholder(view);
+        return new MyViewholder(view);
     }
 
     @Override
@@ -35,15 +35,17 @@ public class PostAdapter  extends RecyclerView.Adapter<PostAdapter.MyViewholder>
 
     @Override
     public int getItemCount() {
-        return resultModels.size();
+        if (resultModels.size() != 0)
+            return resultModels.size();
+        return 0;
     }
 
-    public void setResultModels(List<ResultModel> resultModelList){
+    public void setResultModels(List<ResultModel> resultModelList) {
         this.resultModels = resultModelList;
         notifyDataSetChanged();
     }
 
-    class MyViewholder extends RecyclerView.ViewHolder{
+    class MyViewholder extends RecyclerView.ViewHolder {
 
         private TextView title;
         private TextView body;
